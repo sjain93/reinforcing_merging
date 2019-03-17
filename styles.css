@@ -26,3 +26,24 @@ main {
   display: inline-block;
   text-decoration: none;
 }
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.image_list {
+  display: inline-block;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.2em;
+}
+
+.image_list li img{
+  width: 100%
+}
+
+#resources {
+  postion: center;
+}
